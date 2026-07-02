@@ -1,26 +1,39 @@
-# ML Bootcamp Summer 2025
+# ML Bootcamp 2026
 
-| Session | Lecture | Lab (up to 2 hours) | TA |
-| ------- | ------- | ------------------- | -- |
-| D1-M | Introduction to AI and ML | Colab Setup, Python Refresh, Visualization: t-SNE | Ramy |
-| D1-A | Data Preprocessing and Evaluation | Data Prep: Scaling, Normalization, Imputation, Feature Selection, Model Evaluation: Classification, Regression | Ramy |
-| D2-M | Exploratory Data Analysis and Model Training | Model Tune-Up, Bagging and Boosting, Supply Chain Example | Ernesto |
-| D2-A | KNN, Decision Trees | KNN, Decision Tree | Ernesto |
-| D3-M | Regression | Linear Regression, Logistic Regression, Support Vector Machine (SVM) | Ernesto |
-| D3-A | Naive Bayes and Random Forests | Naive Bayes, Random Forests | Jerry |
-| D4-M | Deep Learning | Multi-layer Perceptron (MLP) | Ramy |
-| D4-A | Deep Learning | Convolutional Neural Networks (CNN), Autoencoder, Recurrent Neural Networks (RNN) | Ramy |
-| D5-M | Deep Learning | Transformers | Ramy |
-| D5-A | Evaluation |  | Ramy |
-| D6-M | Deep Learning | LLMs | Jerry |
-| D6-A | Deep Learning | Graph Neural Networks (GNN), Application: Neural Combinatorial Optimization (NCO) | Jerry |
-| D7-M | Deep Learning | Agentic AI | Jerry |
-| D7-A | Unsupervised Learning | k-means/elbow method, Hierarchical Clustering, Soft Clustering | Jerry |
-| D8-M | Reinforcement Learning | FrozenLake Gym Env, Markov Decision Processes (MDP), PI/VI/Monte-Carlo | Koorosh |
-| D8-A | Reinforcement Learning | Tabular RL (Q-learning, SARSA, On/Off-Policy) | Koorosh |
-| D9-M | Company Visit | | Koorosh/Kaye |
-| D9-A | Reinforcement Learning | DQN, Double DQN, Cart-Pole, Policy Optimization (REINFORCE) | Koorosh |
-| D10-M | Reinforcement Learning | Dyna-Q | Koorosh |
-| D10-A | Evaluation |  | Koorosh |
+Tutorials and lab notebooks for the ML Bootcamp. The material is organized by
+**topic** rather than by day, since bootcamp runs cover these sessions in
+different orders and groupings. Each session folder contains its own README with
+the lecture outline, lab activities, and any data files.
 
-[Second Evaluation Link](https://docs.google.com/forms/d/e/1FAIpQLSc3vZ4yszKcNk6bEJaBcNkDJMyhWOAGuk_D6i6zbaV4ah9GCg/viewform?usp=dialog)
+## Topics
+
+### 1. Introduction and ML Pipeline
+- [Introduction to AI and ML](01-intro-and-ml-pipeline/introduction-to-ml) — Colab setup, Python refresh, visualization (t-SNE)
+- [Data Preprocessing and Evaluation](01-intro-and-ml-pipeline/data-preprocessing-and-evaluation) — scaling, normalization, imputation, feature selection, model evaluation
+- [Exploratory Data Analysis and Model Training](01-intro-and-ml-pipeline/eda-and-model-training) — EDA, model tune-up, bagging and boosting
+
+### 2. Supervised Learning
+- [KNN and Decision Trees](02-supervised-learning/knn-and-decision-trees)
+- [Regression and SVM](02-supervised-learning/regression-and-svm) — linear regression, logistic regression, support vector machines
+- [Naive Bayes and Ensemble Methods](02-supervised-learning/naive-bayes-and-ensembles) — naive Bayes, random forests
+
+### 3. Unsupervised Learning
+- [Clustering and PCA](03-unsupervised-learning/clustering-and-pca) — k-means/elbow method, hierarchical clustering, soft clustering, PCA
+
+### 4. Deep Learning
+- [Multi-layer Perceptron (MLP)](04-deep-learning/mlp)
+- [CNN, Autoencoder, and RNN](04-deep-learning/cnn-autoencoder-rnn)
+- [Transformers and LLMs](04-deep-learning/transformers-and-llms)
+- [Large Language Models (LLMs)](04-deep-learning/large-language-models) — ChatGPT, DeepSeek
+- [Graph Neural Networks and NCO](04-deep-learning/gnn-and-nco) — GNNs, neural combinatorial optimization
+- [Agentic AI](04-deep-learning/agentic-ai)
+
+### 5. Reinforcement Learning
+- [MDP and Monte-Carlo Methods](05-reinforcement-learning/mdp-and-monte-carlo) — FrozenLake, policy/value iteration, Monte-Carlo
+- [Tabular Reinforcement Learning](05-reinforcement-learning/tabular-rl) — Q-learning, SARSA, on/off-policy
+- [Deep Reinforcement Learning](05-reinforcement-learning/deep-rl) — DQN, Double DQN, Cart-Pole, REINFORCE
+- [Model-Based Reinforcement Learning](05-reinforcement-learning/model-based-rl) — Dyna-Q
+
+## Archive
+
+Additional and older materials are kept in [`archive/`](archive).
