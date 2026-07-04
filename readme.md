@@ -33,6 +33,7 @@ the lecture outline, lab activities, and any data files.
 - [Tabular Reinforcement Learning](05-reinforcement-learning/tabular-rl) — Q-learning, SARSA, on/off-policy
 - [Deep Reinforcement Learning](05-reinforcement-learning/deep-rl) — DQN, Double DQN, Cart-Pole, REINFORCE
 - [Model-Based Reinforcement Learning](05-reinforcement-learning/model-based-rl) — Dyna-Q
+- [Multi-Agent Reinforcement Learning](05-reinforcement-learning/multi-agent-rl) — Minimax Q-learning
 
 ## Archive
 
