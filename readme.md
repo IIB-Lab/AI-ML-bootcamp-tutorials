@@ -38,3 +38,6 @@ the lecture outline, lab activities, and any data files.
 ## Archive
 
 Additional and older materials are kept in [`archive/`](archive).
+
+
+Student versions of Colab Notebook can be found in [here](https://drive.google.com/drive/folders/16rH3dg0WcniaNTZwVLaxJ98P9ZerbMj0?usp=sharing).
