@@ -8,3 +8,6 @@
 1. Model Tune-Up
 2. Bagging and Boosting
 3. Supply Chain Example
+
+## Please use the following Google Colab notebook version during the tutorial/lab:
+https://colab.research.google.com/github/uoft-ml-bootcamp/tutorials/blob/main/01-intro-and-ml-pipeline/eda-and-model-training/eda-and-model-training.ipynb
