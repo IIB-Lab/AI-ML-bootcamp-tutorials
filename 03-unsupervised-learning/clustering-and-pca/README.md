@@ -7,6 +7,5 @@
 1. k-means/elbow method, Hierarchical Clustering, Soft Clustering
 
 ## Please use the following Google Colab notebook versions during the tutorial/lab:
-- [kmeans-demo](https://colab.research.google.com/github/uoft-ml-bootcamp/tutorials/blob/main/03-unsupervised-learning/clustering-and-pca/kmeans-demo.ipynb)
-- [Hierarchial-clustering](https://colab.research.google.com/github/uoft-ml-bootcamp/tutorials/blob/main/03-unsupervised-learning/clustering-and-pca/Hierarchial-clustering.ipynb)
-- [pca](https://colab.research.google.com/github/uoft-ml-bootcamp/tutorials/blob/main/03-unsupervised-learning/clustering-and-pca/pca.ipynb)
+- [Unsupervised learning](https://drive.google.com/drive/folders/1J1rHkFgSJH607R1hzJc-FEc0RXqE6rVN)
+
