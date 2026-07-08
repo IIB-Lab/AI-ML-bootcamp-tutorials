@@ -1,0 +1,15 @@
+<svg width="640" height="180" viewBox="0 0 640 180" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect width="640" height="180" fill="white"/>
+  <rect x="30" y="25" width="110" height="40" rx="8" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/>
+  <text x="85" y="50" font-size="15" fill="#111" text-anchor="middle">feature x&#8321;</text>
+  <rect x="30" y="105" width="110" height="40" rx="8" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/>
+  <text x="85" y="130" font-size="15" fill="#111" text-anchor="middle">feature x&#8322;</text>
+  <rect x="470" y="65" width="140" height="40" rx="8" fill="#e9f7ef" stroke="#2e7d4f" stroke-width="1.5"/>
+  <text x="540" y="90" font-size="15" fill="#111" text-anchor="middle">class y = 0 or 1</text>
+  <path d="M140,45 C300,45 340,80 464,80" fill="none" stroke="#555" stroke-width="1.6"/>
+  <polygon points="470,80 461,76 461,84" fill="#555"/>
+  <path d="M140,125 C300,125 340,90 464,90" fill="none" stroke="#555" stroke-width="1.6"/>
+  <polygon points="470,90 461,86 461,94" fill="#555"/>
+  <text x="300" y="72" font-size="13" fill="#666" text-anchor="middle" font-style="italic">how?</text>
+  <text x="320" y="168" font-size="12" fill="#888" text-anchor="middle" font-style="italic">we need a rule that turns (x&#8321;, x&#8322;) into a class &#8212; the next sections build it</text>
+</svg>

@@ -13,8 +13,8 @@ the lecture outline, lab activities, and any data files.
 - [Exploratory Data Analysis and Model Training](01-intro-and-ml-pipeline/eda-and-model-training) — EDA, model tune-up, bagging and boosting
 
 ### 2. Supervised Learning
+- [Regression and SVM](02-supervised-learning/regression-and-regularization-and-hyperparameter-tuning) — linear regression, logistic regression, regularization, and hyperparameter tuning.
 - [KNN and Decision Trees](02-supervised-learning/knn-and-decision-trees)
-- [Regression and SVM](02-supervised-learning/regression-and-svm) — linear regression, logistic regression, support vector machines
 - [Naive Bayes and Ensemble Methods](02-supervised-learning/naive-bayes-and-ensembles) — naive Bayes, random forests
 
 ### 3. Unsupervised Learning
