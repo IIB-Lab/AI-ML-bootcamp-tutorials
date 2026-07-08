@@ -41,3 +41,4 @@ bin/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+*.code-workspace
