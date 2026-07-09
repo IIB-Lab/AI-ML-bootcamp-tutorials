@@ -42,3 +42,6 @@ bin/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 *.code-workspace
+# 167 MB full HVAC dataset - exceeds GitHub 100 MB limit; use surrogate_dataset_small.csv (10 sims)
+04-deep-learning/mlp/surrogate_dataset.csv
+04-deep-learning/mlp/mnist.pkl

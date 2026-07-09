@@ -1,0 +1,19 @@
+<svg width="820" height="150" viewBox="0 0 820 150" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="13">
+  <rect width="820" height="150" fill="white"/>
+  <rect x="20" y="45" width="175" height="55" rx="8" fill="#eaf2fb" stroke="#4682b4" stroke-width="2"/>
+  <text x="107" y="70" text-anchor="middle">Current state + weather</text>
+  <text x="107" y="87" text-anchor="middle" font-size="11">+ candidate HVAC action</text>
+  <rect x="235" y="45" width="160" height="55" rx="8" fill="#fdeaea" stroke="#c0392b" stroke-width="2"/>
+  <text x="315" y="70" text-anchor="middle">Forward model</text>
+  <text x="315" y="87" text-anchor="middle" font-size="11">predict Ti[t+1]</text>
+  <rect x="435" y="45" width="160" height="55" rx="8" fill="#fef6e0" stroke="#e0a800" stroke-width="2"/>
+  <text x="515" y="70" text-anchor="middle">Predicted next Ti</text>
+  <text x="515" y="87" text-anchor="middle" font-size="11">vs. setpoint</text>
+  <rect x="635" y="45" width="165" height="55" rx="8" fill="#eafaf0" stroke="#27ae60" stroke-width="2"/>
+  <text x="717" y="70" text-anchor="middle">Choose the action</text>
+  <text x="717" y="87" text-anchor="middle" font-size="11">that hits the setpoint</text>
+  <g stroke="#4b5563" stroke-width="1.8" marker-end="url(#a4)" fill="none">
+    <line x1="195" y1="72" x2="235" y2="72"/><line x1="395" y1="72" x2="435" y2="72"/><line x1="595" y1="72" x2="635" y2="72"/>
+  </g>
+  <defs><marker id="a4" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#4b5563"/></marker></defs>
+</svg>

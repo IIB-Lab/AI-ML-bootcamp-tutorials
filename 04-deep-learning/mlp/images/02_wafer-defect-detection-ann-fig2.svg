@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" width="700" role="img" aria-label="ROC curve diagram: true positive rate against false positive rate, with the area under the curve shaded and a dashed chance diagonal.">
+  <defs>
+    <marker id="rocarrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#888"/>
+    </marker>
+  </defs>
+
+  <!-- shaded area under the ROC curve = AUC -->
+  <path d="M60,260 C78,196 92,152 110,130 C136,106 174,84 214,74 C256,64 322,56 366,52 L366,260 Z"
+        fill="#4682b4" fill-opacity="0.16"/>
+
+  <!-- chance diagonal -->
+  <line x1="60" y1="260" x2="366" y2="52" stroke="#888" stroke-width="1.4" stroke-dasharray="5 4"/>
+
+  <!-- the ROC curve itself -->
+  <path d="M60,260 C78,196 92,152 110,130 C136,106 174,84 214,74 C256,64 322,56 366,52"
+        fill="none" stroke="#b22222" stroke-width="2.6"/>
+
+  <!-- axes -->
+  <line x1="60" y1="260" x2="380" y2="260" stroke="#888" stroke-width="1.6" marker-end="url(#rocarrow)"/>
+  <line x1="60" y1="260" x2="60" y2="40" stroke="#888" stroke-width="1.6" marker-end="url(#rocarrow)"/>
+
+  <!-- ticks -->
+  <line x1="60" y1="260" x2="60" y2="265" stroke="#888"/>
+  <line x1="366" y1="260" x2="366" y2="265" stroke="#888"/>
+  <line x1="60" y1="52" x2="55" y2="52" stroke="#888"/>
+  <text x="60" y="279" font-size="11" fill="#888" text-anchor="middle">0</text>
+  <text x="366" y="279" font-size="11" fill="#888" text-anchor="middle">1</text>
+  <text x="49" y="56" font-size="11" fill="#888" text-anchor="end">1</text>
+
+  <!-- perfect corner -->
+  <circle cx="60" cy="52" r="4" fill="none" stroke="#2e8b57" stroke-width="2"/>
+  <text x="72" y="46" font-size="11" fill="#2e8b57">perfect corner (AUC = 1)</text>
+
+  <!-- labels -->
+  <text x="220" y="298" font-size="12" fill="#888" text-anchor="middle">false positive rate — good wafers wrongly flagged</text>
+  <text x="20" y="150" font-size="12" fill="#888" text-anchor="middle" transform="rotate(-90 20 150)">true positive rate — bad wafers caught</text>
+
+  <text x="150" y="205" font-size="12" fill="#4682b4" font-weight="bold">AUC = this area</text>
+  <text x="240" y="160" font-size="11" fill="#888" transform="rotate(-33 240 160)">chance (AUC = 0.5)</text>
+
+  <!-- threshold annotations on the curve -->
+  <circle cx="60" cy="260" r="3.5" fill="#b22222"/>
+  <text x="72" y="248" font-size="10.5" fill="#b22222">threshold = 1: flag nothing</text>
+  <circle cx="366" cy="52" r="3.5" fill="#b22222"/>
+  <text x="358" y="40" font-size="10.5" fill="#b22222" text-anchor="end">threshold = 0: flag everything</text>
+
+  <!-- right-hand explanatory panel -->
+  <text x="420" y="70" font-size="12.5" fill="#888" font-weight="bold">Each point = one threshold</text>
+  <text x="420" y="92" font-size="11.5" fill="#888">Slide the cutoff from 1 down to 0 and</text>
+  <text x="420" y="110" font-size="11.5" fill="#888">the classifier walks up this curve.</text>
+  <text x="420" y="140" font-size="12.5" fill="#888" font-weight="bold">AUC has a plain meaning</text>
+  <text x="420" y="162" font-size="11.5" fill="#888">Pick one bad wafer and one good wafer</text>
+  <text x="420" y="180" font-size="11.5" fill="#888">at random. AUC is the probability the</text>
+  <text x="420" y="198" font-size="11.5" fill="#888">model scores the bad one higher.</text>
+  <text x="420" y="228" font-size="11.5" fill="#888">0.5 = coin flip &#183; 1.0 = perfect ranking</text>
+  <text x="420" y="252" font-size="11.5" fill="#b22222">This notebook&#8217;s ANN: 0.68</text>
+</svg>
