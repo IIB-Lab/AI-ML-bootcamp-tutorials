@@ -4,3 +4,5 @@ rnn1.*
 *.aux
 *.log
 rnn2.*
+test*
+convdemo2.*
