@@ -1,4 +1,5 @@
-# Naive Bayes and Ensemble Methods
+# Ensemble Methods
 
 
-* [Colab link](https://drive.google.com/file/d/15JZneQmQL6NJvBeBiLBL5dqu8XNuZvLp/view?usp=drive_link)
+
+[Colab notebook](https://colab.research.google.com/github/IIB-Lab/AI-ML-bootcamp-tutorials/blob/main/02-supervised-learning/ensembles/ensembles.ipynb)

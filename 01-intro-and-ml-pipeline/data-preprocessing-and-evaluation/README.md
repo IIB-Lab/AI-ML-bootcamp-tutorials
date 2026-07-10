@@ -10,4 +10,4 @@
 3. Model Evaluation: Classification, Regression
 
 ## Please use the following Google Colab notebook version during the tutorial/lab:
-https://colab.research.google.com/github/uoft-ml-bootcamp/tutorials/blob/main/01-intro-and-ml-pipeline/data-preprocessing-and-evaluation/data-preprocessing-and-evaluation.ipynb
+[Colab Notebook](https://colab.research.google.com/github/IIB-Lab/AI-ML-bootcamp-tutorials/blob/main/01-intro-and-ml-pipeline/data-preprocessing-and-evaluation/data-preprocessing-and-evaluation.ipynb)
