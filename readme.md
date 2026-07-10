@@ -21,7 +21,7 @@ the lecture outline, lab activities, and any data files.
 - [Clustering and PCA](03-unsupervised-learning/clustering-and-pca) — k-means/elbow method, hierarchical clustering, soft clustering, PCA
 
 ### 4. Deep Learning
-- [Multi-layer Perceptron (MLP)](04-deep-learning/mlp)
+- Day 4 [Multi-layer Perceptron (MLP)](04-deep-learning/mlp)
 - [CNN, Autoencoder, and RNN](04-deep-learning/cnn-autoencoder-rnn)
 - [Transformers and LLMs](04-deep-learning/transformers-and-llms)
 - [Large Language Models (LLMs)](04-deep-learning/large-language-models) — ChatGPT, DeepSeek
@@ -34,6 +34,9 @@ the lecture outline, lab activities, and any data files.
 - [Deep Reinforcement Learning](05-reinforcement-learning/deep-rl) — DQN, Double DQN, Cart-Pole, REINFORCE
 - [Model-Based Reinforcement Learning](05-reinforcement-learning/model-based-rl) — Dyna-Q
 - [Multi-Agent Reinforcement Learning](05-reinforcement-learning/multi-agent-rl) — Minimax Q-learning
+
+### Evaluation 1
+- [Evaluation](https://forms.gle/ioVywaWkD79yiBjW7)
 
 ## Archive
 

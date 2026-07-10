@@ -45,3 +45,6 @@ bin/
 # 167 MB full HVAC dataset - exceeds GitHub 100 MB limit; use surrogate_dataset_small.csv (10 sims)
 04-deep-learning/mlp/surrogate_dataset.csv
 04-deep-learning/mlp/mnist.pkl
+
+# Exam material - this repo is public, students can read it
+07-evaluations/
