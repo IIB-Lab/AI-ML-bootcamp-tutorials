@@ -6,8 +6,6 @@
 ## Lab (up to 2 hours)
 1. KNN
 2. Decision Tree
-
-## Please use the following Google Colab notebook versions during the tutorial/lab:
-- [knn-demo](https://colab.research.google.com/github/uoft-ml-bootcamp/tutorials/blob/main/02-supervised-learning/knn-and-decision-trees/knn-demo.ipynb)
-- [decision-tree-demo](https://colab.research.google.com/github/uoft-ml-bootcamp/tutorials/blob/main/02-supervised-learning/knn-and-decision-trees/decision-tree-demo.ipynb)
-- [python-numpy-syntaxes](https://colab.research.google.com/github/uoft-ml-bootcamp/tutorials/blob/main/02-supervised-learning/knn-and-decision-trees/python-numpy-syntaxes.ipynb)
+   
+* [KNN Colab link](https://drive.google.com/file/d/1z8CG0XuoQmJhfzGvN-QHmAPZdYpo_ZlF/view?usp=drive_link)
+* [Decision Tree Colab link](https://drive.google.com/file/d/1ATc0Y8In9IV8NUC5f61zT9ucBk2h0xor/view?usp=drive_link)
