@@ -1,0 +1,12 @@
+<svg width="640" height="165" viewBox="0 0 640 165" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect width="640" height="165" fill="white"/>
+  <text x="30" y="20" font-size="12" fill="#666">All data</text>
+  <rect x="30" y="30" width="398" height="46" rx="8" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/>
+  <text x="229" y="58" font-size="15" fill="#111" text-anchor="middle">Training set</text>
+  <rect x="434" y="30" width="176" height="46" rx="8" fill="#e9f7ef" stroke="#2e7d4f" stroke-width="1.5"/>
+  <text x="522" y="58" font-size="15" fill="#111" text-anchor="middle">Test set</text>
+  <text x="229" y="96" font-size="12" fill="#666" text-anchor="middle">fit the model's learned parameters</text>
+  <text x="522" y="96" font-size="12" fill="#666" text-anchor="middle">final exam</text>
+  <text x="320" y="136" font-size="12" fill="#888" text-anchor="middle" font-style="italic">no data left over to compare hyperparameter choices &#8212;</text>
+  <text x="320" y="152" font-size="12" fill="#888" text-anchor="middle" font-style="italic">scoring them on the test set would be cheating</text>
+</svg>

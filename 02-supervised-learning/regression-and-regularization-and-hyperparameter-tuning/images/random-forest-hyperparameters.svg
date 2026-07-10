@@ -1,0 +1,89 @@
+<svg width="760" height="290" viewBox="0 0 760 290" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="amber-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 z" fill="#b9770e"/></marker>
+    <marker id="blue-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#3b5a86"/></marker>
+  </defs>
+  <rect width="760" height="290" fill="white"/>
+  <text x="20" y="20" font-size="11" fill="#666">Random forest = many decision trees voting &#8212; two knobs set the forest&#8217;s size and each tree&#8217;s complexity</text>
+
+  <!-- ===== left panel: n_estimators ===== -->
+  <!-- tree 1 -->
+  <g stroke="#3b5a86" stroke-width="1.5">
+    <line x1="75" y1="55" x2="55" y2="90"/><line x1="75" y1="55" x2="95" y2="90"/>
+    <line x1="55" y1="90" x2="45" y2="125"/><line x1="55" y1="90" x2="65" y2="125"/>
+    <line x1="95" y1="90" x2="85" y2="125"/><line x1="95" y1="90" x2="105" y2="125"/>
+  </g>
+  <circle cx="75" cy="55" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/>
+  <circle cx="55" cy="90" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/><circle cx="95" cy="90" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/>
+  <circle cx="45" cy="125" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="65" cy="125" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="85" cy="125" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="105" cy="125" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/>
+  <!-- tree 2 -->
+  <g stroke="#3b5a86" stroke-width="1.5">
+    <line x1="165" y1="55" x2="145" y2="90"/><line x1="165" y1="55" x2="185" y2="90"/>
+    <line x1="145" y1="90" x2="135" y2="125"/><line x1="145" y1="90" x2="155" y2="125"/>
+    <line x1="185" y1="90" x2="175" y2="125"/><line x1="185" y1="90" x2="195" y2="125"/>
+  </g>
+  <circle cx="165" cy="55" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/>
+  <circle cx="145" cy="90" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/><circle cx="185" cy="90" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/>
+  <circle cx="135" cy="125" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="155" cy="125" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="175" cy="125" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="195" cy="125" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/>
+  <!-- tree 3 -->
+  <g stroke="#3b5a86" stroke-width="1.5">
+    <line x1="255" y1="55" x2="235" y2="90"/><line x1="255" y1="55" x2="275" y2="90"/>
+    <line x1="235" y1="90" x2="225" y2="125"/><line x1="235" y1="90" x2="245" y2="125"/>
+    <line x1="275" y1="90" x2="265" y2="125"/><line x1="275" y1="90" x2="285" y2="125"/>
+  </g>
+  <circle cx="255" cy="55" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/>
+  <circle cx="235" cy="90" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/><circle cx="275" cy="90" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/>
+  <circle cx="225" cy="125" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="245" cy="125" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="265" cy="125" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="285" cy="125" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/>
+  <text x="312" y="98" font-size="18" fill="#666">&#8230;</text>
+  <!-- tree N -->
+  <g stroke="#3b5a86" stroke-width="1.5">
+    <line x1="375" y1="55" x2="355" y2="90"/><line x1="375" y1="55" x2="395" y2="90"/>
+    <line x1="355" y1="90" x2="345" y2="125"/><line x1="355" y1="90" x2="365" y2="125"/>
+    <line x1="395" y1="90" x2="385" y2="125"/><line x1="395" y1="90" x2="405" y2="125"/>
+  </g>
+  <circle cx="375" cy="55" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/>
+  <circle cx="355" cy="90" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/><circle cx="395" cy="90" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/>
+  <circle cx="345" cy="125" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="365" cy="125" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="385" cy="125" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="405" cy="125" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/>
+
+  <text x="75" y="146" font-size="11" fill="#666" text-anchor="middle">Tree 1</text>
+  <text x="165" y="146" font-size="11" fill="#666" text-anchor="middle">Tree 2</text>
+  <text x="255" y="146" font-size="11" fill="#666" text-anchor="middle">Tree 3</text>
+  <text x="375" y="146" font-size="11" fill="#666" text-anchor="middle">Tree N</text>
+
+  <line x1="45" y1="162" x2="405" y2="162" stroke="#b9770e" stroke-width="1.5" marker-start="url(#amber-arrow)" marker-end="url(#amber-arrow)"/>
+  <text x="225" y="182" font-size="13" font-weight="bold" fill="#b9770e" text-anchor="middle">n_estimators &#8212; how many trees</text>
+
+  <line x1="225" y1="190" x2="225" y2="208" stroke="#3b5a86" stroke-width="1.5" marker-end="url(#blue-arrow)"/>
+  <rect x="110" y="212" width="230" height="32" rx="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/>
+  <text x="225" y="233" font-size="13" fill="#3b5a86" text-anchor="middle">majority vote &#8594; prediction</text>
+  <text x="225" y="268" font-size="11" fill="#666" text-anchor="middle">more trees &#8594; smoother, more stable predictions</text>
+
+  <!-- ===== right panel: max_depth ===== -->
+  <line x1="505" y1="60" x2="730" y2="60" stroke="#ccc" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="505" y1="100" x2="730" y2="100" stroke="#ccc" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="505" y1="140" x2="730" y2="140" stroke="#ccc" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="505" y1="180" x2="730" y2="180" stroke="#ccc" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="500" y="64" font-size="10" fill="#999" text-anchor="end">root</text>
+  <text x="500" y="104" font-size="10" fill="#999" text-anchor="end">depth 1</text>
+  <text x="500" y="144" font-size="10" fill="#999" text-anchor="end">depth 2</text>
+  <text x="500" y="184" font-size="10" fill="#999" text-anchor="end">depth 3</text>
+
+  <g stroke="#3b5a86" stroke-width="1.5">
+    <line x1="615" y1="60" x2="555" y2="100"/><line x1="615" y1="60" x2="675" y2="100"/>
+    <line x1="555" y1="100" x2="525" y2="140"/><line x1="555" y1="100" x2="585" y2="140"/>
+    <line x1="675" y1="100" x2="645" y2="140"/><line x1="675" y1="100" x2="705" y2="140"/>
+    <line x1="525" y1="140" x2="510" y2="180"/><line x1="525" y1="140" x2="540" y2="180"/>
+    <line x1="585" y1="140" x2="570" y2="180"/><line x1="585" y1="140" x2="600" y2="180"/>
+    <line x1="645" y1="140" x2="630" y2="180"/><line x1="645" y1="140" x2="660" y2="180"/>
+    <line x1="705" y1="140" x2="690" y2="180"/><line x1="705" y1="140" x2="720" y2="180"/>
+  </g>
+  <circle cx="615" cy="60" r="7" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/>
+  <circle cx="555" cy="100" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/><circle cx="675" cy="100" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/>
+  <circle cx="525" cy="140" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/><circle cx="585" cy="140" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/><circle cx="645" cy="140" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/><circle cx="705" cy="140" r="6" fill="#eaf1fb" stroke="#3b5a86" stroke-width="1.5"/>
+  <circle cx="510" cy="180" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="540" cy="180" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="570" cy="180" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="600" cy="180" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="630" cy="180" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="660" cy="180" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="690" cy="180" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/><circle cx="720" cy="180" r="5" fill="#fef9e7" stroke="#b9770e" stroke-width="1.5"/>
+
+  <line x1="745" y1="60" x2="745" y2="180" stroke="#b9770e" stroke-width="1.5" marker-start="url(#amber-arrow)" marker-end="url(#amber-arrow)"/>
+  <text x="617" y="215" font-size="13" font-weight="bold" fill="#b9770e" text-anchor="middle">max_depth &#8212; how deep each tree may grow</text>
+  <text x="617" y="235" font-size="11" fill="#666" text-anchor="middle">deeper &#8594; more complex, can overfit</text>
+  <text x="617" y="251" font-size="11" fill="#666" text-anchor="middle">shallower &#8594; simpler, may underfit</text>
+</svg>

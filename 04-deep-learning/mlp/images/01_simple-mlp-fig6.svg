@@ -1,0 +1,10 @@
+<svg width="620" height="88" viewBox="0 0 620 88" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="13">
+  <rect x="0" y="0" width="620" height="88" fill="white"/>
+  <rect x="20"  y="30" width="300" height="34" fill="#eaf2fb" stroke="#4682b4"/>
+  <rect x="320" y="30" width="150" height="34" fill="#fef6e0" stroke="#e0a800"/>
+  <rect x="470" y="30" width="130" height="34" fill="#fdeaea" stroke="#c0392b"/>
+  <text x="170" y="52" text-anchor="middle">TRAIN (fit weights)</text>
+  <text x="395" y="52" text-anchor="middle">VALIDATION (pick H)</text>
+  <text x="535" y="52" text-anchor="middle">TEST (report)</text>
+  <text x="310" y="20" text-anchor="middle" fill="#555" font-size="12">split the data once; only TEST stays untouched until the very end</text>
+</svg>

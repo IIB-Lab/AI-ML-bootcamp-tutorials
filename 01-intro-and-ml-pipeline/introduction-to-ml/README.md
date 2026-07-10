@@ -10,4 +10,5 @@
 3. Visualization: t-SNE
 
 ## Please use the following Google Colab notebook version during the tutorial/lab:
-https://drive.google.com/file/d/1KV7ppFnt2H_MHTuK9b13qX2DKt2FXcp5/view?usp=drive_link
+https://colab.research.google.com/github/IIB-Lab/AI-ML-bootcamp-tutorials/blob/main/01-intro-and-ml-pipeline/introduction-to-ml/introduction-to-ml.ipynb
+
