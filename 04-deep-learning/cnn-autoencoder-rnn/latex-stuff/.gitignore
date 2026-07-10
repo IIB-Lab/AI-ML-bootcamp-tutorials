@@ -1,0 +1,6 @@
+rnn.*
+rnn1.*
+*.gz
+*.aux
+*.log
+rnn2.*
