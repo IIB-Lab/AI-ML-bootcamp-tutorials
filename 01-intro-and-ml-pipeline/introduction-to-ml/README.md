@@ -10,5 +10,4 @@
 3. Visualization: t-SNE
 
 ## Please use the following Google Colab notebook version during the tutorial/lab:
-https://colab.research.google.com/drive/1mh91S0nftDAHILw1YhR80dmMVt0L4m5g?usp=sharing
-
+https://drive.google.com/file/d/1KV7ppFnt2H_MHTuK9b13qX2DKt2FXcp5/view?usp=drive_link

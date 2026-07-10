@@ -1,4 +1,7 @@
-# ML Bootcamp 2026
+# ML Bootcamp 2026 (KIAT)
+
+[Link to Google Drive](https://drive.google.com/drive/folders/16rH3dg0WcniaNTZwVLaxJ98P9ZerbMj0)
+
 
 Tutorials and lab notebooks for the ML Bootcamp. The material is organized by
 **topic** rather than by day, since bootcamp runs cover these sessions in
