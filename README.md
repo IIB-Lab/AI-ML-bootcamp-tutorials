@@ -3,28 +3,24 @@
 
 
 Tutorials and lab notebooks for the ML Bootcamp for KIAT students 2026.
-
 <span style="color:red">Note that this repo only include contents for ML/AI.</span>
-
-
 <!-- The material is organized by
 **topic** rather than by day, since bootcamp runs cover these sessions in
 different orders and groupings. Each session folder contains its own README with
 the lecture outline, lab activities, and any data files. -->
-
 | Session | Lecture (~1 hour) | Tutorial (~2 hours) | Lecture slide deck | Tutorial Colab Links|
 | :--- | :--- | :--- |  :--- |  :--- | 
 | D1-M (Mon) July 6 | **Introduction to AI and  ML Pipeline 1**<ul><li>Problem definition</li><li>Data collection and EDA</li></ul> | <ul><li>Colab setup</li><li>Python refresh</li><li>Visualization</li></ul> | [Slide deck](./Slides/Day1_Ver2.pdf) | <ul><li>[introduction-to-ml.ipynb](https://colab.research.google.com/github/IIB-Lab/AI-ML-bootcamp-tutorials/blob/main/01-intro-and-ml-pipeline/introduction-to-ml/introduction-to-ml.ipynb)</li></ul>|
 | D1-A (Mon) July 6 | **ML Pipeline 2**<ul><li>Data preprocessing</li><li>Feature engineering & selection</li><li>Data splitting, cross-val, data leakage</li><li>Model selection, training, evaluation</li></ul> | <ul><li>Data prep: scaling, normalization, imputation</li><li>Feature selection</li><li>Model evaluation: classification, regression</li></ul> |  [Slide deck](./Slides/Day1_Ver2.pdf)|  |
-| D2-M (Tue) July 7 | **Supervised Learning 1**<ul><li>Linear & logistic regression</li><li>Loss functions</li><li>Gradient descent</li><li>Regularization</li></ul> | <ul><li>Linear Regression</li><li>Logistic Regression</li><li>Regularization</li><li>Model/Hyperparam tuning</li></ul> | [Slide deck](./Slides/Day2_Ver2.pdf) |
-| D2-A (Tue) July 7 | **Supervised Learning 2**<ul><li>KNN</li><li>Decision trees</li><li>Ensemble methods</li></ul> | <ul><li>KNN</li><li>Decision Trees</li><li>Bagging and Boosting</li><li>Random Forests</li><li>XGBoost</li></ul> | [Slide deck](./Slides/Day2_Ver2.pdf)| <ul><li>[knn.ipynb](https://colab.research.google.com/github/IIB-Lab/AI-ML-bootcamp-tutorials/blob/main/02-supervised-learning/knn-and-decision-trees/knn.ipynb)</li><li>[decision-tree.ipynb](https://colab.research.google.com/github/IIB-Lab/AI-ML-bootcamp-tutorials/blob/main/02-supervised-learning/knn-and-decision-trees/decision-tree.ipynb)</li><li>[ensembles.ipynb](https://colab.research.google.com/github/IIB-Lab/AI-ML-bootcamp-tutorials/blob/main/02-supervised-learning/ensembles/ensembles.ipynb)</li> </ul>
-| D3-M (Wed) July 8  | **Unsupervised Learning**<ul><li>K-means</li><li>PCA</li><li>Dimension reduction</li></ul> | <ul><li>PCA</li><li>K-means</li><li>Other clustering methods</li></ul> | [Slide deck](./Slides/Day3_Ver2.pdf) |
+| D2-M (Tue) July 7 | **Supervised Learning 1**<ul><li>Linear & logistic regression</li><li>Loss functions</li><li>Gradient descent</li><li>Regularization</li></ul> | <ul><li>Linear Regression</li><li>Logistic Regression</li><li>Regularization</li><li>Model/Hyperparam tuning</li></ul> | [Slide deck](./Slides/Day2_Ver2.pdf) | |
+| D2-A (Tue) July 7 | **Supervised Learning 2**<ul><li>KNN</li><li>Decision trees</li><li>Ensemble methods</li></ul> | <ul><li>KNN</li><li>Decision Trees</li><li>Bagging and Boosting</li><li>Random Forests</li><li>XGBoost</li></ul> | [Slide deck](./Slides/Day2_Ver2.pdf)| <ul><li>[knn.ipynb](https://colab.research.google.com/github/IIB-Lab/AI-ML-bootcamp-tutorials/blob/main/02-supervised-learning/knn-and-decision-trees/knn.ipynb)</li><li>[decision-tree.ipynb](https://colab.research.google.com/github/IIB-Lab/AI-ML-bootcamp-tutorials/blob/main/02-supervised-learning/knn-and-decision-trees/decision-tree.ipynb)</li><li>[ensembles.ipynb](https://colab.research.google.com/github/IIB-Lab/AI-ML-bootcamp-tutorials/blob/main/02-supervised-learning/ensembles/ensembles.ipynb)</li> </ul>|
+| D3-M (Wed) July 8  | **Unsupervised Learning**<ul><li>K-means</li><li>PCA</li><li>Dimension reduction</li></ul> | <ul><li>PCA</li><li>K-means</li><li>Other clustering methods</li></ul> | [Slide deck](./Slides/Day3_Ver2.pdf) | |
 | D3-A (Wed) July 8 |  **ML Competition 1** | | | [Competition](https://colab.research.google.com/github/IIB-Lab/AI-ML-bootcamp-tutorials/blob/main/06-competitions/ML%20Competition%201/ML_Competition_1_Student_Notebook.ipynb)|
-| D4-M (Thu) July 9  | **Visit Themis Intelligence** | |
-| D4-A (Thu) July 9  | **Deep Learning 1**<ul><li>MLP</li><li>Backprop.</li><li>Activation functions</li><li>Hyperparam tuning</li><li>Regularization</li></ul> | <ul><li>MLP</li></ul> | [Slide deck](./Slides/Day4_Ver2.pdf) |
+| D4-M (Thu) July 9  | **Visit Themis Intelligence** | | | |
+| D4-A (Thu) July 9  | **Deep Learning 1**<ul><li>MLP</li><li>Backprop.</li><li>Activation functions</li><li>Hyperparam tuning</li><li>Regularization</li></ul> | <ul><li>MLP</li></ul> | [Slide deck](./Slides/Day4_Ver2.pdf) | |
 | D5-M (Fri) July 10  | **Deep Learning 2**<ul><li>CNN</li><li>RNN</li></ul> | <ul><li>CNN</li><li>RNN</li></ul> |  [Slide deck](./Slides/Day5_Ver2.pdf) | <ul><li>[cnn.ipynb](https://colab.research.google.com/github/IIB-Lab/AI-ML-bootcamp-tutorials/blob/main/04-deep-learning/cnn-rnn/cnn.ipynb)</li><li>[rnn.ipynb](https://colab.research.google.com/github/IIB-Lab/AI-ML-bootcamp-tutorials/blob/main/04-deep-learning/cnn-rnn/rnn.ipynb)</li></ul>|
 | D5-A (Fri) July 10  | **Evaluation 1** | | |[Evaluation](https://forms.gle/ioVywaWkD79yiBjW7)|
-| D6-M(Mon) July 13 | **Deep Learning 3**<ul><li>GNN</li><li>PINN</li><li>AE</li></ul> | |
+| D6-M (Mon) July 13 | **Deep Learning 3**<ul><li>GNN</li><li>PINN</li><li>VAE</li></ul> | <ul><li>GNN</li><li>PINN</li><li>VAE</li></ul> | | <ul><li>[GNN](https://drive.google.com/file/d/152nuaMOe9wLODp_KiywbnE9F0uuw10TG/view?usp=drive_link)</li><li>[PINN](https://drive.google.com/file/d/1qC4gtAOZ7P-KPPd0-XEthRzmWa7jHukz/view?usp=drive_link)</li><li>[VAE](https://drive.google.com/file/d/1Zx8uJect6PWkH6oKfUCilX2hL3msjmNx/view?usp=drive_link)</li></ul>|
 
 
 <!-- | Session | Lecture (~1 hour) | Tutorial (~2 hours) | 
