@@ -50,4 +50,6 @@ bin/
 04-deep-learning/mlp/mnist.pkl
 
 # Exam material - this repo is public, students can read it
-07-evaluations/
+07-evaluations/presentation
+07-evaluations/*.md
+# 07-evaluations/
