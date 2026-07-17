@@ -6,7 +6,7 @@ Tutorials and lab notebooks for the ML Bootcamp for KIAT students 2026.
 
 **Note that this repo only include  ML/AI portion of the bootcamp!**
 
-[Contact us](mailto:shengbozhang1@gmail.com) if you see any issue with this repo.
+[Contact us](mailto:shengbozhang1@gmail.com) to report any issues.
 <br><br><br>
 
 <!-- The material is organized by
